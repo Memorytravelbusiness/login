@@ -28,11 +28,7 @@
         <div class="form-container sign-in-container">
             <form action="#">
                 <h1>Ingresar</h1>
-                <div class="social-container">
-                    <button id="login-google" class="google" style="padding-right: 10px;padding-bottom: 10px;padding-top: 5px;"><span
-                            class="textogo">Continua con google</span><img class="imagegoogle" src="google.svg"
-                            style="padding-right: 10;"><img class="imageflecha" src="flecha.svg"></button>
-                </div>
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
                 <span>o utiliza tus datos...</span>
                 <input type="email" placeholder="Correo Electrónico" required/>
                 <input type="password" placeholder="Contraseña" required/>
@@ -62,7 +58,6 @@
             - Si deseas regresar al inicio haga click en este
             <a target="_blank" href="https://www.florin-pop.com/blog/2019/03/double-slider-sign-in-up-form/">enlace</a>.
         </p>
-        <div class="g-signin2" data-onsuccess="onSignIn"></div>
     </footer>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
