@@ -76,9 +76,7 @@ button:hover {
 button:active {
 	transform: scale(0.95);
 }
-g-signin2 {
-	margin: 3px;
-}
+
 button:focus {
 	outline: none;
 }
@@ -313,4 +311,40 @@ footer i {
 footer a {
     color: #3c97bf;
     text-decoration: none;
+}
+
+
+/* Elemento | https://memorytravelbusiness.github.io/login/ */
+
+div.form-container:nth-child(2) > form:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+  /* padding-top: 2px; */
+  padding-bottom: 0px;
+}
+
+/* En línea #2 | https://memorytravelbusiness.github.io/login/ */
+
+.abcRioButtonContentWrapper {
+  /* height: 100%; */
+  /* width: 100%; */
+  height: 10%;
+  width: 90%;
+}
+
+.abcRioButtonLightBlue {
+  /* color: #757575; */
+  color: #000;
+}
+
+/* Elemento | https://memorytravelbusiness.github.io/login/ */
+
+div.form-container:nth-child(2) > form:nth-child(1) > h1:nth-child(1) {
+  /* padding-bottom: 5px; */
+  /* padding-bottom: 1px; */
+  padding-bottom: 12px;
+}
+
+/* Elemento | https://memorytravelbusiness.github.io/login/ */
+
+div.form-container:nth-child(2) > form:nth-child(1) > span:nth-child(3) {
+  padding-top: 10px;
 }
