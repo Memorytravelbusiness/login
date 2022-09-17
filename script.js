@@ -1,3 +1,7 @@
+window.onload = function () {
+  $('#onload').fadeOut();
+}
+
 {
 const sigButton = document.getElementById('sig');
 const signButton = document.getElementById('sign');
