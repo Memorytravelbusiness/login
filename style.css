@@ -25,9 +25,7 @@ h3 {
 	text-align: center;
     color: rgb(8, 0, 46);
 }
-.g-google {
-	margin: 4px;
-	border-radius: 10px;
+
 p {
 	font-size: 14px;
 	font-weight: 100;
@@ -41,10 +39,11 @@ span {
 }
 
 a {
-	color: #333;
+	color: rgb(0, 0, 0);
 	font-size: 14px;
 	text-decoration: none;
 	margin: 15px 0;
+	font-family: 'Century Gothic';
 }
 
 button {
@@ -85,6 +84,7 @@ button:focus {
 button.ghost {
 	background-color: transparent;
 	border-color: #FFFFFF;
+	color: #fff;
 }
 
 form {
@@ -174,7 +174,7 @@ input {
 	z-index: 100;
 }
 
-.container.right-panel-active .overlay-container{
+.container .right-panel-active .overlay-container{
 	transform: translateX(-100%);
 }
 
