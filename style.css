@@ -76,7 +76,9 @@ button:hover {
 button:active {
 	transform: scale(0.95);
 }
-
+g-signin2 {
+	margin: 3px;
+}
 button:focus {
 	outline: none;
 }
