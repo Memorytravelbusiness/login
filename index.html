@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+    <meta name="google-signin-client_id" content="794781427005-4tv045lv55nfc12tg9evluc8i46k44c1.apps.googleusercontent.com">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body src="proo.png">
+    <h3>Si aún no tienes tu cuenta MT, que esperas? Registrate ahora. Es gratis!!!</h3>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Regístrate</h1>
+                <div class="social-container">
+                    <button id="login-google" class="google" style="padding-right: 10px;padding-bottom: 10px;padding-top: 5px;"><span class="textogo">Continua con google</span><img class="imagegoogle" src="google.svg" style="padding-right: 10;"><img class="imageflecha" src="flecha.svg"></button>
+                </div>
+                <span>o registrate con tus datos...</span>
+                <input type="name" placeholder="Nombre Completo" required/>
+                <input type="email" placeholder="Correo Electrónico" required/>
+                <input type="password" placeholder="Contraseña" required/>
+                <button>Ingresar y comenzar</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Ingresar</h1>
+                <div class="social-container">
+                    <button id="login-google" class="google" style="padding-right: 10px;padding-bottom: 10px;padding-top: 5px;"><span
+                            class="textogo">Continua con google</span><img class="imagegoogle" src="google.svg"
+                            style="padding-right: 10;"><img class="imageflecha" src="flecha.svg"></button>
+                </div>
+                <span>o utiliza tus datos...</span>
+                <input type="email" placeholder="Correo Electrónico" required/>
+                <input type="password" placeholder="Contraseña" required/>
+                <a href="#">¿Olvidaste tu contraseña?</a>
+                <button>Ingresar</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Bienvenido a MT!!</h1>
+                    <p>Conecta tu cuenta MT y disfruta de todos nuestros contenidos completamente gratis durante 1 mes, si deseas mucho más contenido puedes cambiarte a otro plan pero de igual forma, nunca dejarás de aprender!!!</p>
+                    <button class="ghost" id="signIn">Ya tengo una cuenta MT</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hola amig@!!</h1>
+                    <p>Recuerda ver tus notificaciones diariamente, ya que publicamos contenido todas las semanas, no deseamos que te pierdas una...</p>
+                    <button class="ghost" id="signUp">No tengo una cuenta MT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>
+            En caso necesites soporte con tu <i class="fa fa-lock"></i> Contraseña
+            <a target="_blank" href="https://florin-pop.com">Haga click aquí</a>
+            - Si deseas regresar al inicio haga click en este
+            <a target="_blank" href="https://www.florin-pop.com/blog/2019/03/double-slider-sign-in-up-form/">enlace</a>.
+        </p>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    </footer>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+    <script src="./script.js"></script>
+</body>
+</html>
