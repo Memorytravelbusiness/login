@@ -40,7 +40,7 @@ function oauthSignIn() {
   form.submit();
 }
 
-{ "web"= { "client_id": "794781427005-4tv045lv55nfc12tg9evluc8i46k44c1.apps.googleusercontent.com", "project_id": "alpine-air-362623", "auth_uri": "https://accounts.google.com/o/oauth2/auth", "token_uri": "https://oauth2.googleapis.com/token", "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs", "redirect_uris": ["https://memorytravelbusiness.github.io/login/"] } }
+{ "web"= { "client_id": "794781427005-4tv045lv55nfc12tg9evluc8i46k44c1.apps.googleusercontent.com", "project_id": "alpine-air-362623", "auth_uri": "https://accounts.google.com/o/oauth2/auth", "token_uri": "https://oauth2.googleapis.com/token", "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs", "redirect_uris": ["https://memorytravelbusiness.github.io/inicio-memorytravel/"] } }
 
 const signUpButton = document.getElementById('signUp');
 const signInButton = document.getElementById('signIn');
