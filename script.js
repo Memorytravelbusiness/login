@@ -1,13 +1,3 @@
-$(document).ready(function() {
-    setTimeout(function() {
-        $(".containe").fadeOut(1500);
-    },3000);
- 
-    setTimeout(function() {
-        $(".container").fadeIn(1500);
-    },6000);
-});
-
 {
 const sigButton = document.getElementById('sig');
 const signButton = document.getElementById('sign');
