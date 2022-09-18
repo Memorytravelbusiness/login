@@ -28,6 +28,15 @@
             <form action="#">
                 <h1 style="padding-bottom: 10px;">Ingresar</h1>
                 <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                <a href="#" onclick="signOut();">Sign out</a>
+                <script>
+                    function signOut() {
+                        var auth2 = gapi.auth2.getAuthInstance();
+                        auth2.signOut().then(function () {
+                            console.log('User signed out.');
+                        });
+                    }
+                </script>
                 <span style=padding-top:9px;>o utiliza tus datos...</span>
                 <input type="email" placeholder="Correo Electrónico" required/>
                 <input type="password" placeholder="Contraseña" required/>
